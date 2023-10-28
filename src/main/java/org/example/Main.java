@@ -1,9 +1,12 @@
 // package org.example;
 
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Main {
-
+    private static final Logger logger = LogManager.getLogger(Main.class);
+    
     public static int add(int num1,int num2){
         return num1+num2;
     }
