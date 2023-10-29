@@ -28,6 +28,7 @@ public class Main {
         System.out.println("2. Subtract ");
         System.out.println("3. Multiply ");
         System.out.println("4. Division ");
+        System.out.println("5. Exit ");
         
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         
@@ -50,6 +51,8 @@ public class Main {
                 break;
             case 4:
                 ans=division(num1,num2);
+                break;
+            case 5:
                 break;
           }
         System.out.println("The answer is = "+ans);
