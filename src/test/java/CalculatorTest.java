@@ -12,7 +12,14 @@ public class CalculatorTest {
 	        int result = Main.add(a,b);
 	        Assert.assertEquals(expectedResult, result);
 	    }
-	
+	@Test
+	    public void test_add1() {
+	        int a = -25;
+	        int b = -5;
+            int expectedResult = -30;
+	        int result = Main.add(a,b);
+	        Assert.assertEquals(expectedResult, result);
+	    }
 	@Test
 	    public void test_subtract() {
 	        int a = 5;

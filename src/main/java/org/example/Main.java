@@ -53,7 +53,7 @@ public class Main {
                 ans=division(num1,num2);
                 break;
             case 5:
-                break;
+                return;
           }
         System.out.println("The answer is = "+ans);
     }
