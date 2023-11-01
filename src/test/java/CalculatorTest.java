@@ -2,7 +2,7 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
+//These are test files
 public class CalculatorTest {
 	@Test
 	    public void test_add() {
