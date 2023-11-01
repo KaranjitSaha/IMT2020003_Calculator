@@ -19,11 +19,8 @@ public class Main {
         return num1*num2;
     }
 
-    public static void division(int num1,int num2){
-        if(num2==0){
-            System.out.println("Cannot divide by 0");
-        }
-        System.out.println("The answer is = "+num1/num2);
+    public static int division(int num1,int num2){
+        return num1/num2;
     }
     public static void main(String[] args) {
         System.out.println("Please select the operation from below: ");
@@ -45,21 +42,19 @@ public class Main {
         switch(choice) {
             case 1:
                 ans=add(num1,num2);
-                System.out.println("The answer is = "+ans);
                 break;
             case 2:
                 ans=subtract(num1,num2);
-                System.out.println("The answer is = "+ans);
                 break;
             case 3:
                 ans=multiply(num1,num2);
-                System.out.println("The answer is = "+ans);
                 break;
             case 4:
-                division(num1,num2);
+                ans=division(num1,num2);
                 break;
             case 5:
                 return;
           }
+        System.out.println("The answer is = "+ans);
     }
 }
