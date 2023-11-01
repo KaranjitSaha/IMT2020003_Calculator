@@ -39,7 +39,7 @@ public class CalculatorTest {
 	    }
 	
 	@Test
-	    public void test_power() {
+	    public void test_division() {
 	        int a = 10;
 			int b = 5;
 	        int expectedResult = 2;
