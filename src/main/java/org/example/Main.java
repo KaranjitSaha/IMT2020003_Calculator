@@ -1,12 +1,9 @@
 package org.example;
 
 import java.util.Scanner;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class Main {
-    private static final Logger logger = LogManager.getLogger(Main.class);
-    
+    //Hello    
     public static int add(int num1,int num2){
         return num1+num2;
     }
@@ -20,14 +17,11 @@ public class Main {
     }
 
     public static int division(int num1,int num2){
-        if(num2==0)
-            logger.warn("Division with 0 is not allowed");
         return num1/num2;
     }
     public static void main(String[] args) {
         // Main calc = new Main();
         System.out.println("Please select the operation from below: ");
-        logger.info("Program Started");
         System.out.println("1. Add ");
         System.out.println("2. Subtract ");
         System.out.println("3. Multiply ");
