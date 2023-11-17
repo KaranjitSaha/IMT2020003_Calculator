@@ -3,7 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Main {
-    //Hello    
+       
     public static int add(int num1,int num2){
         return num1+num2;
     }
